@@ -22,23 +22,30 @@ Sudoku is a popular puzzle that requires you to fill blanks in a 9x9 grid with d
 
 # Menu page
 ---
-![Game instructions](instructions.png)
+<img src="instructions.png" alt="Instructions image" width="560" height="610">
 - Press r to reset the game. All  the values entered by user on board will be cleared.
 - Press enter to begin the game.
 - Press s to see the solution. Pressing s implements a visual solve.
 
 # Game board
 ---
-![Game board](sudokuboard.png)
+<img src="sudokuboard.png" alt="Instructions image" width="560" height="610">
+
 - Click on any of the boxes to select it.
 - Pencil in temporary values.
 - Press enter to check if a given value is valid
 - A cross indicates entered value in not valid.
-- Click on view solution to see the solution.
+<img src="partiallysolvedboard.png" alt="Instructions image" width="560" height="610">
+
 ---
-![Solved board](solvedboard.png)
+- Click on view solution to see the solution.
+<img src="solvedboard.png" alt="Instructions image" width="560" height="610">
+
 ---
 - Board is solved by both recursive backtracking as well as Crook's Algorithm.
 - Time complexity is measured using time module in python and displayed on console.
+- Press t to see the comparison of time complexities
+
 ---
-![Time complexity](timecomplexity.png)
+<img src="timecomplexity.png" alt="Instructions image" width="560" height="610">
+
